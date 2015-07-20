@@ -31,7 +31,7 @@ exports.code = function(req, res) {
   }
   img.stroke("#ffffff");
   for (var i = 0; i < length; i++) {
-    img.font('../ttfs/' + _.random(1, 6) + '.ttf', fontSize);
+    img.font('./ttfs/' + _.random(1, 6) + '.ttf', fontSize);
     var textRgb = "RGB(" + _.random(1, 150) + ", " + _.random(1, 150) + ", " +
       _.random(1, 150) + ")";
     var col = textRgb.colorHex();
