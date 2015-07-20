@@ -1,0 +1,9 @@
+{
+  "name": "gm-verifyCode",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "gm": "^1.18.1",
+    "lodash": "^3.10.0"
+  }
+}
